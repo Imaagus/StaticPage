@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(../multimedia/img/Fondo\ de\ pagina.png);
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    margin-left: 15px;
+}
+#navbarNavp {
+    justify-content: center;
+}
+.navegador {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:antiquewhite;
+    justify-content: center;
+}
+.navegador ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0px ;
+}
+.navegador ul li a{
+    color: black;
+    display: block;
+    font-style: unset;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-weight: 400;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    background-color: #fddced;
+    padding-bottom: 10px;
+}
+h2{
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 400;
+}
+.tarjetas{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.tarjeta{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.tarjeta p{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.tarjeta img{
+    padding-bottom: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.productos{
+   justify-content: center;
+}
+.producto{
+    margin: 40px;
+}
+.frase{
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.inicios{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px 30px 30px;
+}
+.inicios h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.inicios p{
+    padding-top: 10px;;
+}
+.consulta{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 0px;
+    font-size:22px;
+}
+.form{
+    width: 800px;
+    margin-top: 0px;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(5,1fr);
+  
+}
+.form div{
+ height: 125px;   
+}
+.form input {
+    background-color: rgb(242, 241, 241);
+    grid-row: 1/2;
+    width: 99%;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.form .input-nombre{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.form .input-apellido {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.form .email{   
+grid-column: 1/2;
+grid-row: 3/4;
+}
+.form .consult {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.form .consult textarea{
+    width: 100%;
+    height: 90%;
+    font-size: 18px;
+}
+.form button{
+    background-color: rgb(133, 175, 247);
+    border: none;
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    justify-self: initial;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    align-self: center;
+}
+.informacion{
+    margin-top: 100px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#3c536bd7;
+    border-radius: 5px;
+}
+.informacion p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.perfil{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 75px;
+}
+.perfil img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    grid-column: 1/2;
+    padding-left: 100px;
+}
+.perfil h4{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.perfil h5{
+    padding-left: 275px;
+    font-size: 18px;
+}
+.sobremi{
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cadae2;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.sobremi p{
+    padding: 10px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+}
+.footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#d1e2ca;
+    justify-content:center;
+    width: 100%;
+}
+.footer img {
+    width: 25px;
+    padding-left: 10px;
+}
+.footer p{
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+.footer .items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content:space-around;
+}
+.footer .items a{
+    color: black;
+    text-decoration: none;
+    font-style: unset;
+}
+.footer .items a:hover{
+    color:#939692;
+}
+.derechos{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:1024px){
+    .perfil{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sobremi{
+        grid-column: 2/4;
+    }
+    .perfil img{
+        width: 400px;
+        padding-left: 50px ;
+    }
+    .sobremi{
+        height: auto;
+        margin-right: 5px;
+    }
+    .sobremi p{
+        font-size: 12px;
+        padding-bottom: 0%;
+    }
+
+}
+@media (max-width:768px){
+    body{
+        font-size: 12px;
+    }
+    .navegador a{
+        font-size: 14px;
+    }
+    .tarjeta{
+        justify-content: space-around;
+        width: 200px;
+        height: 200px;
+        margin: 30px;
+    }
+    .tarjeta p{
+        font-size: 10px;
+    }
+    .tarjeta img{
+    width: 150px;
+    height: 150px;
+    }
+    .form{
+        width: 90%;
+    }
+    .perfil img {
+        width: 350px;
+    }
+    .sobremi p{
+        font-size: 9px;
+    }
+    .informacion p{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:576px){
+    .tarjeta{
+        margin: 30px;
+    }
+    .tarjeta p{
+        padding: 5px;
+    }
+    .form{
+        width: 350px;
+        justify-content: center;
+        padding: 15px;
+    }
+    .perfil{
+        column-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .perfil img{
+        width: 150px;
+        grid-column: 1/2;
+    }
+    .perfil h5{
+        padding-left: 0px;
+        font-size: 6px;
+    }
+    .sobremi{
+        grid-column: 2/5;
+    }
+    .sobremi p{
+        font-size: 9px;
+    }
+}
