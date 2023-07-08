@@ -336,8 +336,8 @@ grid-row: 3/4;
 }
 @media (max-width:576px){
     .tarjeta{
-        width: 125px;
-        margin: 30px;
+        width: 150px;
+        margin: 15px;
     }
     .tarjeta p{
         padding: 5px;
