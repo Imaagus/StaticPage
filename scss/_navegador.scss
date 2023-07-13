@@ -1,0 +1,32 @@
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    margin-left: 15px;
+}
+#navbarNavp {
+    justify-content: center;
+}
+.navegador {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:antiquewhite;
+    justify-content: center;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: 0px ;
+    }
+    li a{
+        color: black;
+        display: block;
+        font-style: unset;
+        text-decoration: none;
+        padding: 15px 15px;
+        font-weight: 400;
+        margin: 10px;
+    }
+}

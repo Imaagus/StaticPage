@@ -1,0 +1,37 @@
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .tarjeta{
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     width: 300px;
+     padding: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     background-color: white;
+     p{
+         text-align: center;
+         font-size: 18px;
+         font-weight: 500;
+         margin: 0;
+     }
+     img{
+         width: 100%;
+         height: auto;
+         border-radius: 5px;
+     }
+     .product-description{
+         padding-top: 10px;
+         font-size: 14px;
+         margin: 5px 0;
+         font-weight: 400;
+         text-align: start;
+     }
+ } 
+ .productos{
+    justify-content: center;
+ }
+ .producto{
+     margin: 40px;
+ }

@@ -1,0 +1,28 @@
+.frase{
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.inicios{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px 30px 30px;
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    p{
+        padding-top: 10px;;
+    }
+}

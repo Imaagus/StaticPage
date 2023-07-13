@@ -1,0 +1,71 @@
+@media (max-width:1024px){
+    .tarjeta{
+        margin: 25px;
+    }
+
+}
+@media (max-width:768px){
+    body{
+        font-size: 12px;
+    }
+    .navegador a{
+        font-size: 14px;
+    }
+    .tarjeta{
+        justify-content: space-around;
+        width: 200px;
+        margin: 30px;
+    }
+    .tarjeta p{
+        font-size: 10px;
+    }
+    .tarjeta img{
+    height: auto;
+    }
+    .form{
+        width: 90%;
+    }
+    .perfil .sobremi{
+        width: 500px;
+        height: auto;
+    }
+    .sobremi p{
+        font-size: 9px;
+    }
+    .informacion p{
+        font-size: 16px;
+    }
+    .inicios p{
+        font-size: 16px;
+    }
+}
+@media (max-width:576px){
+    .navegador ul li a{
+        margin: 0px;
+    }
+    .navegador a{
+        font-size: 12px;
+    }
+    .navegador ul{
+        padding-left: 0px;
+    }
+    .tarjeta{
+        width: 150px;
+        margin: 15px;
+    }
+    .tarjeta p{
+        padding: 5px;
+    }
+    .form{
+        width: 350px;
+        justify-content: center;
+        padding: 15px;
+    }
+    .perfil .sobremi{
+        width: 300px;
+    }
+    .footer .items{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
