@@ -60,6 +60,30 @@ h2 {
   font-weight: 400;
 }
 
+.novedades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.novedad {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.novedad p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.novedad img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -251,8 +275,8 @@ h2 {
   background-color: #d1e2ca;
   justify-content: center;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .footer img {
   width: 25px;
