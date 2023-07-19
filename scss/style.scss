@@ -1,20 +1,10 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url(../multimedia/img/Fondo\ de\ pagina.png);
-    position: relative;
-    min-height: 100vh;
-}
-@import"navegador";
-@import"titulos";
+@import "general";
+@import "navegador";
+@import "titulos";
 @import "novedad";
 @import "tarjetas";
-@import"inicio";
+@import "inicio";
 @import "form";
 @import "sobremi";
-@import"footer";
-@import"media";
+@import "footer";
+@import "media";
