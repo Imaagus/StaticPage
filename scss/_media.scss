@@ -8,9 +8,6 @@
     body{
         font-size: 12px;
     }
-    .navegador a{
-        font-size: 14px;
-    }
     .novedad{
         width: 200px;
         p{
@@ -46,15 +43,6 @@
     }
 }
 @media (max-width:576px){
-    .navegador ul li a{
-        margin: 0px;
-    }
-    .navegador a{
-        font-size: 12px;
-    }
-    .navegador ul{
-        padding-left: 0px;
-    }
     .tarjeta{
         width: 150px;
         margin: 15px;

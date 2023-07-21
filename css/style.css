@@ -21,30 +21,6 @@ body {
   justify-content: center;
 }
 
-.navegador {
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: antiquewhite;
-  justify-content: center;
-}
-.navegador ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin-bottom: 0px;
-}
-.navegador li a {
-  color: black;
-  display: block;
-  font-style: unset;
-  text-decoration: none;
-  padding: 15px 15px;
-  font-weight: 400;
-  margin: 10px;
-}
-
 h1 {
   text-align: center;
   padding-top: 50px;
@@ -64,6 +40,13 @@ h2 {
   padding: 10px;
   margin: 10px;
   font-weight: 400;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 0px;
+  font-size: 22px;
 }
 
 .novedades {
@@ -98,7 +81,7 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: white;
 }
-.tarjeta p {
+.tarjeta h4 {
   text-align: center;
   font-size: 18px;
   font-weight: 500;
@@ -168,13 +151,6 @@ h2 {
 .inicios p {
   padding-top: 10px;
   margin: 0px;
-}
-
-.consulta {
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 0px;
-  font-size: 22px;
 }
 
 .form {
@@ -262,12 +238,6 @@ h2 {
   flex-wrap: wrap;
   flex-direction: column;
 }
-.perfil h4 {
-  margin: 25px;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
-}
 .perfil .sobremi {
   height: auto;
   width: 800px;
@@ -335,9 +305,6 @@ h2 {
   body {
     font-size: 12px;
   }
-  .navegador a {
-    font-size: 14px;
-  }
   .novedad {
     width: 200px;
   }
@@ -373,15 +340,6 @@ h2 {
   }
 }
 @media (max-width: 576px) {
-  .navegador ul li a {
-    margin: 0px;
-  }
-  .navegador a {
-    font-size: 12px;
-  }
-  .navegador ul {
-    padding-left: 0px;
-  }
   .tarjeta {
     width: 150px;
     margin: 15px;
