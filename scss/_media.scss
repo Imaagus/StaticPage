@@ -2,25 +2,15 @@
     .tarjeta{
         margin: 25px;
     }
-
 }
 @media (max-width:768px){
-    body{
-        font-size: 12px;
-    }
     .novedad{
         width: 200px;
-        p{
-            font-size: 12px;
-        }
     }
     .tarjeta{
         justify-content: space-around;
         width: 200px;
         margin: 30px;
-    }
-    .tarjeta p{
-        font-size: 10px;
     }
     .tarjeta img{
     height: auto;
@@ -32,19 +22,10 @@
         width: 500px;
         height: auto;
     }
-    .sobremi p{
-        font-size: 9px;
-    }
-    .informacion p{
-        font-size: 16px;
-    }
-    .inicios p{
-        font-size: 16px;
-    }
 }
 @media (max-width:576px){
     .tarjeta{
-        width: 150px;
+        width: 175px;
         margin: 15px;
     }
     .tarjeta p{
@@ -56,7 +37,7 @@
         padding: 15px;
     }
     .perfil .sobremi{
-        width: 300px;
+        width: 80%;
     }
     .footer .items{
         margin-left: 10px;
