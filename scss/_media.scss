@@ -39,4 +39,11 @@
     .perfil .sobremi{
         width: 90%;
     }
+    .items {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .derechos{
+        text-align: center;
+    }
 }
