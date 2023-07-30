@@ -44,10 +44,8 @@
     font-size: 18px;
     }
     button{
-        background-color: rgb(133, 175, 247);
+        @include boton-style(rgb(133, 175, 247),100px,50px);
         border: none;
-        height:50px;
-        width: 100px;
         border-radius: 5px;
         margin-top: 10px;
         margin-bottom: 0px;

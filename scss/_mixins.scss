@@ -1,0 +1,5 @@
+@mixin boton-style ($bg-color,$width,$height){
+    background-color: $bg-color;
+    width: $width;
+    height: $height;
+}
