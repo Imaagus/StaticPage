@@ -195,9 +195,9 @@ h3 {
 }
 .form button {
   background-color: rgb(133, 175, 247);
-  width: 100px;
-  height: 50px;
   border: none;
+  height: 50px;
+  width: 100px;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 0px;
